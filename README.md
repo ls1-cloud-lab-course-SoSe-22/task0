@@ -49,7 +49,7 @@ Please look at the documentation given there.
       `<port>`) of the server.  Note that in the tests `<hostname>` = `"localhost"`
     - After establishing the connection with the server, **each thread** should
       send a variable number of messages (taken as `<num_messages>`).
-      - **Important**: The client should alternative between `ADD` and `SUB`
+      - **Important**: The client should alternate between `ADD` and `SUB`
         requests, starting with `ADD` until it has sent `<num_messages>`
       - **Important**: The client should use the passed `<add>` and `<sub>` command
         line parameters as arguments for these requests
